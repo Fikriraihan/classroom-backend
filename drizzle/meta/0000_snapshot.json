@@ -95,15 +95,11 @@
             "cycle": false
           }
         },
-       "indexes": {
-        "subjects_department_id_idx": {
-          "name": "subjects_department_id_idx",
-          "columns": [
-            "department_id"
-          ],
-          "isUnique": false
-        }
-       },
+        "department_id": {
+          "name": "department_id",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
         },
         "name": {
           "name": "name",
